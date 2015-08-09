@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio Site</title>
+	
+	<!-- using my favorite font from google... -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+
+		<header>
+			<div class="logo">
+				<img src="images/t.svg" alt="">
+			</div><!-- /.logo -->
+			<div class="my-name">
+				<h1>Tobias Riemenschneider</h1>
+				<h2>front-end ninja</h2>
+			</div><!-- /.my-name -->
+		</header>
+
+		<figure class="featured-image">
+			<img
+				src="images/lines-of-code@2x.jpg"
+				alt="lines of code"
+				srcset="images/lines-of-code.jpg 640w, images/lines-of-code@2x.jpg 1200w"
+			>
+		</figure>
+
+		<h3>Featured Work</h3>
+		
+		<section class="featured-work">
+			<article class="col-md-4">
+				<img
+					class="img-responsive"
+					alt="appify"
+					src="images/appify-1200.jpg"
+					srcset="images/appify-640.jpg 640w, images/appify-1200.jpg 1200w"
+					sizes="(min-width: 900px) 385px, 100vw"
+				>
+				<h4>Appify</h4>
+				<span>https://github.com/udacity/Appify/</span>
+			</article>
+			<article class="col-md-4">
+				<img
+					class="img-responsive"
+					alt="sunflower"
+					src="images/sunflower-1200.jpg"
+					srcset="images/sunflower-640.jpg 640w, images/sunflower-1200.jpg 1200w"
+					sizes="(min-width: 900px) 385px, 100vw"
+				>
+				<h4>Sunflower</h4>
+				<span>https://github.com/udacity/Sunflower/</span>
+			</article>
+			<article class="col-md-4">
+				<img
+					class="img-responsive"
+					alt="bokeh"
+					src="images/bokeh-1200.jpg"
+					srcset="images/bokeh-640.jpg 640w, images/bokeh-1200.jpg 1200w"
+					sizes="(min-width: 900px) 385px, 100vw"
+				>
+				<h4>Bokeh</h4>
+				<span>https://github.com/udacity/Bokeh/</span>
+			</article>
+		</section>
+
+	</div><!-- /.container -->
+</body>
+</html>
