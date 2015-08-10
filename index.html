@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>My Portfolio Site</title>
 	
 	<!-- using my favorite font from google... -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet'>
 
 	<link rel="stylesheet" href="styles.css">
 </head>
@@ -27,13 +29,14 @@
 				src="images/lines-of-code@2x.jpg"
 				alt="lines of code"
 				srcset="images/lines-of-code.jpg 640w, images/lines-of-code@2x.jpg 1200w"
+				sizes="100vw"
 			>
 		</figure>
 
 		<h3>Featured Work</h3>
 		
 		<section class="featured-work">
-			<article class="col-md-4">
+			<article>
 				<img
 					class="img-responsive"
 					alt="appify"
@@ -42,9 +45,9 @@
 					sizes="(min-width: 900px) 385px, 100vw"
 				>
 				<h4>Appify</h4>
-				<span>https://github.com/udacity/Appify/</span>
+				<p>https://github.com/udacity/Appify/</p>
 			</article>
-			<article class="col-md-4">
+			<article>
 				<img
 					class="img-responsive"
 					alt="sunflower"
@@ -53,9 +56,9 @@
 					sizes="(min-width: 900px) 385px, 100vw"
 				>
 				<h4>Sunflower</h4>
-				<span>https://github.com/udacity/Sunflower/</span>
+				<p>https://github.com/udacity/Sunflower/</p>
 			</article>
-			<article class="col-md-4">
+			<article>
 				<img
 					class="img-responsive"
 					alt="bokeh"
@@ -64,7 +67,7 @@
 					sizes="(min-width: 900px) 385px, 100vw"
 				>
 				<h4>Bokeh</h4>
-				<span>https://github.com/udacity/Bokeh/</span>
+				<p>https://github.com/udacity/Bokeh/</p>
 			</article>
 		</section>
 

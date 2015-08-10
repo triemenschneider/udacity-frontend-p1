@@ -68,8 +68,6 @@ figure.featured-image {
 
 figure.featured-image img {
 	max-width: 100%;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
 }
 
 section.featured-work {
@@ -90,7 +88,7 @@ section.featured-work article:last-of-type {
 	margin-left: 2%;
 }
 
-section.featured-work article span {
+section.featured-work article p {
 	font-weight: 100;
 }
 
@@ -99,9 +97,11 @@ section.featured-work article span {
 	h1 {
 		font-size: 2.5em;
 	}
+
 	section.featured-work {
 		display: block;
 	}
+
 	section.featured-work article {
 		width: 100%;
 		margin-bottom: 30px;
@@ -115,26 +115,33 @@ section.featured-work article span {
 	header {
 		padding: 10px;
 	}
+
 	h1 {
 		font-size: 1.6em;
 	}
+
 	h2 {
 		font-size: 1em;
 	}
+
 	h3 {
 		font-size: 1.6em;
 	}
+
 	h4 {
 		font-size: 1.3em;
 		margin-bottom: 0;
 	}
+
 	.logo {
 		padding-top: 0;
 	}
+
 	section.featured-work article {
 		margin-bottom: 10px;
 	}
-	section.featured-work article span {
+	
+	section.featured-work article p {
 		font-size: 0.8em;
 	}
 }
